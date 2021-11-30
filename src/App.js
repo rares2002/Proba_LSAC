@@ -23,7 +23,7 @@ function App() {
             }
           </Route>
           <Route path="/home" exact component={LandP} />
-          <Route path="/student" exact my ass>
+          <Route path="/student" exact>
             {
               !token ? <Redirect to="/"/> :
                       <Dasboard_stud/>
